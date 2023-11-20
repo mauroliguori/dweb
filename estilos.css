@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculadora {
+    max-width: 300px;
+    padding: 30px;
+    border: 2px solid #c41616;
+    border-radius: 10px;
+}
+
+#pantalla {
+    width: 95%;
+    margin-bottom: 50px;
+    padding: 8px;
+    font-size: 50px;
+}
+
+.botones {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    gap: 15px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+}
